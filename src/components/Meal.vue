@@ -132,6 +132,7 @@ E26D5C
 
 ul {
   text-align: left;
+  padding-right: 0.3rem;
 }
 
 li {

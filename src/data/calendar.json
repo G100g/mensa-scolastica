@@ -1,0 +1,482 @@
+{
+    "weeks": {
+        "1": "week-1",
+        "6": "week-1",
+        "11": "week-1",
+
+        "2": "week-2",
+        "7": "week-2",
+        "12": "week-2",
+
+        "3": "week-3",
+        "8": "week-3",
+        "13": "week-3",
+
+        "4": "week-4",
+        "9": "week-4",
+        "14": "week-4",
+
+        "5": "week-5",
+        "10": "week-5",
+        "15": "week-5"
+    },
+
+    "mealsKeys": {
+        "lunch": [
+            "formaggio",
+            "fagiolini-profumati",
+            "passato-di-verdure-e-legumi-con-orzo",
+            "pepite-di-verdura-dorate",
+            "carote-a-filo",
+            "risotto-alla-parmigiana",
+            "pesce-gratinato-al-forno",
+            "patate-lessate",
+            "crema-di-ceci-e-verdure-con-pastina",
+            "straccetti-di-pollo-al-limone",
+            "carote-prezzemolate",
+            "passato-di-verdure-alla-ligure-con-riso",
+            "pesce-dorato",
+            "pasta-pasticciata-al-forno",
+            "verdura-fresca-mista",
+            "torta-di-complemese",
+            "crema-di-legumi-con-pastina",
+            "medaglione-di-tacchino-al-forno",
+            "pasta-olio-e-parmigiano",
+            "polpettine-di-ricotta-e-spinaci",
+            "pasta-alla-crema-di-broccoli",
+            "pollo-al-forno",
+            "bietole-olio-e-parmigiano",
+            "pasta-al-ragù-di-mare",
+            "tortino-di-semolino-e-patate",
+            "bruschetta-/-pizza-al-pomodoro",
+            "crostata",
+            "yogurt-alla-frutta-bio",
+            "latte-e-biscotti",
+            "pane-e-cioccolato-fondente",
+            "bruschetta-al-pomodoro/pizza-al-pomodoro",
+            "streghette-bio-all’olio-d’oliva",
+            "biscotti",
+            "barretta-di-cioccolato-fondente",
+            "passato-di-verdure-con-pasta",
+            "pizza",
+            "risotto-verde",
+            "pesce-gratinato-al-forno",
+            "purè-di-patate",
+            "crema-di-legumi-con-orzo",
+            "bocconcini-di-tacchino-dorati-al-forno,",
+            "pasta-olio-e-parmigiano",
+            "svizzera-di-bovino",
+            "pasta-al-ragù-di-carne-bianca",
+            "polpettine-di-ricotta-al-forno",
+            "pastina-in-brodo-vegetale",
+            "tortino-di-verdure-e-legumi",
+            "lasagne-al-forno-(bovino)",
+            "verdura-fresca-mista",
+            "vellutata-di-zucca-con-riso",
+            "lombino-di-maiale-al-forno",
+            "broccoli-e-cavolfiore-all’olio",
+            "pasta-prosciutto-e-piselli",
+            "medaglione-di-legumi-dorato-al-forno",
+            "carote-a-filo",
+
+            "purè-di-patate",
+            "crema-di-legumi-con-orzo",
+            "bocconcini-di-tacchino-dorati-al-forno",
+            "pasta-olio-e-parmigiano",
+            "svizzera-di-bovino",
+            "pasta-al-ragù-di-carne-bianca",
+            "polpettine-di-ricotta-al-forno",
+            "pastina-in-brodo-vegetale",
+            "tortino-di-verdure-e-legumi",
+            "lasagne-al-forno-(bovino)",
+            "verdura-fresca-mista",
+            "vellutata-di-zucca-con-riso",
+            "lombino-di-maiale-al-forno",
+            "broccoli-e-cavolfiore-all’olio",
+            "pasta-prosciutto-e-piselli",
+            "medaglione-di-legumi-dorato-al-forno",
+            "carote-a-filo",
+            "pasta-al-pomodoro",
+            "pasta-al-pomodoro-rustico",
+            "pasta-al-tonno",
+            "crema-di-piselli-con-riso",
+            "cous-cous-alle-verdure",
+            "vellutata-di-patate-con-crostini",
+            "pollo-al-limone",
+            "svizzera-di-bovino-al-forno-o-alla-pizzaiola",
+            "polpette-di-pesce-al-forno",
+            "tortino-di-patate",
+            "mozzarella-stracchino",
+            "fagiolini-all-olio",
+            "carotine-e-piselli",
+            "carote-all-olio",
+            "verdura-fresca",
+            "insalata-verde",
+            "pane-e-cioccolato-fondente",
+            "barretta-di-cioccolato-fondente",
+            "yogurt-alla-frutta",
+            "budino-uht",
+            "focaccia-al-forno",
+            "cracker",
+            "crostatina-all-albicocca",
+            "ciambella-casalinga",
+            "plum-cake-allo-yogurt",
+            "latte-e-cereali",
+            "patate-arrosto",
+            "verdura-cotta",
+            "pane-e-marmellata"
+        ]
+    },
+
+    "meals": {
+        "pane-e-marmellata": "pane e marmellata",
+        "verdura-cotta": "Verdura cotta",
+        "patate-arrosto": "Patate arrosto",
+        "latte-e-cereali": "Latte e cereali",
+        "plum-cake-allo-yogurt": "Plum cake allo yogurt",
+        "ciambella-casalinga": "Ciambella casalinga",
+        "frutta-fresca": "Frutta fresca",
+        "mousse-di-frutta": "Mousse di frutta",
+        "crostatina-all-albicocca": "Crostatina all’albicocca",
+        "formaggio": "Formaggio (caciotta, stracchino, mozzarella)",
+        "fagiolini-profumati": "Fagiolini profumati",
+        "passato-di-verdure-e-legumi-con-orzo": "Passato di verdure e legumi con orzo",
+        "pepite-di-verdura-dorate": "Pepite di verdura dorate",
+        "carote-a-filo": "Carote a filo",
+        "risotto-alla-parmigiana": "Risotto alla parmigiana",
+        "pesce-gratinato-al-forno": "Pesce gratinato al forno",
+        "patate-lessate": "Patate lessate ",
+        "crema-di-ceci-e-verdure-con-pastina": "Crema di ceci e verdure con pastina",
+        "straccetti-di-pollo-al-limone": "Straccetti di pollo al limone",
+        "carote-prezzemolate": "Carote prezzemolate ",
+        "passato-di-verdure-alla-ligure-con-riso": "Passato di verdure alla ligure con riso ",
+        "pesce-dorato": "Pesce dorato",
+        "pasta-pasticciata-al-forno": "Pasta pasticciata al forno (ragù di bovino)",
+        "verdura-fresca-mista": "Verdura fresca mista",
+        "torta-di-complemese": "TORTA DI COMPLEMESE",
+        "crema-di-legumi-con-pastina": "Crema di legumi con pastina",
+        "medaglione-di-tacchino-al-forno": "Medaglione di tacchino al forno ",
+        "pasta-olio-e-parmigiano": "Pasta olio e parmigiano",
+        "polpettine-di-ricotta-e-spinaci": "Polpettine di ricotta e spinaci ",
+        "pasta-alla-crema-di-broccoli": "Pasta alla crema di broccoli",
+        "pollo-al-forno": "Pollo al forno",
+        "bietole-olio-e-parmigiano": "Bietole olio e parmigiano ",
+        "pasta-al-ragù-di-mare": "Pasta al ragù di mare",
+        "tortino-di-semolino-e-patate": "Tortino di semolino e patate",
+        "bruschetta-/-pizza-al-pomodoro": "Bruschetta / Pizza al pomodoro ",
+        "crostata": "Crostata",
+        "yogurt-alla-frutta-bio": "Yogurt alla frutta bio",
+        "latte-e-biscotti": "Latte e biscotti ",
+        "pane-e-cioccolato-fondente": "Pane e cioccolato fondente ",
+        "bruschetta-al-pomodoro/pizza-al-pomodoro": "Bruschetta al pomodoro/Pizza al pomodoro",
+        "streghette-bio-all’olio-d’oliva": "Streghette bio all’olio d’oliva",
+        "biscotti": "Biscotti",
+        "barretta-di-cioccolato-fondente": "Barretta di cioccolato fondente ",
+        "passato-di-verdure-con-pasta": "Passato di verdure con pasta",
+        "pizza": "Pizza",
+        "risotto-verde": "Risotto verde ",
+        "pesce-gratinato-al-forno": "Pesce gratinato al forno",
+        "purè-di-patate": "Purè di patate ",
+        "crema-di-legumi-con-orzo": "Crema di legumi con orzo ",
+        "bocconcini-di-tacchino-dorati-al-forno": "Bocconcini di tacchino dorati al forno,",
+        "pasta-olio-e-parmigiano": "Pasta olio e parmigiano ",
+        "svizzera-di-bovino": "Svizzera di bovino ",
+        "pasta-al-ragù-di-carne-bianca": "Pasta al ragù di carne bianca",
+        "polpettine-di-ricotta-al-forno": "Polpettine di ricotta al forno ",
+        "pastina-in-brodo-vegetale": "Pastina in brodo vegetale",
+        "tortino-di-verdure-e-legumi": "Tortino di verdure e legumi ",
+        "lasagne-al-forno-(bovino)": "Lasagne al forno (bovino)",
+        "verdura-fresca-mista": "Verdura fresca mista ",
+        "vellutata-di-zucca-con-riso": "Vellutata di zucca con riso",
+        "lombino-di-maiale-al-forno": "Lombino di maiale al forno",
+        "broccoli-e-cavolfiore-all’olio": "Broccoli e cavolfiore all’olio",
+        "pasta-prosciutto-e-piselli": "Pasta prosciutto e piselli",
+        "medaglione-di-legumi-dorato-al-forno": "Medaglione di legumi dorato al forno ",
+        "carote-a-filo": "Carote a filo",
+
+        "pasta-al-pomodoro": "Pasta al pomodoro",
+        "pasta-al-pomodoro-rustico": "Pasta al pomodoro rustico",
+        "pasta-al-tonno": "Pasta al tonno",
+        "crema-di-piselli-con-riso": "Crema di piselli con riso",
+        "cous-cous-alle-verdure": "Cous cous alle verdure",
+        "vellutata-di-patate-con-crostini": "Vellutata di patate con crostini",
+
+        "pollo-al-limone": "Pollo al limone",
+        "svizzera-di-bovino-al-forno-o-alla-pizzaiola": "Svizzera di bovino al forno o alla pizzaiola",
+        "polpette-di-pesce-al-forno": "Polpette di pesce al forno",
+        "tortino-di-patate": "Tortino di patate e formaggio",
+        "mozzarella-stracchino": "Mozzarella/Stracchino",
+
+        "fagiolini-all-olio": "Fagiolini all’olio",
+        "carotine-e-piselli": "Carotine e piselli",
+        "carote-all-olio": "Carote all’olio",
+        "verdura-fresca": "Verdura fresca",
+        "insalata-verde": "Insalata verde",
+
+        "pane-e-cioccolato-fondente": "Pane e cioccolato fondente",
+        "barretta-di-cioccolato-fondente": "Barretta di cioccolato fondente",
+        "yogurt-alla-frutta": "Yogurt alla frutta",
+        "budino-uht": "Budino UHT ",
+        "focaccia-al-forno": "Focaccia al forno",
+        "cracker": "Cracker"
+    },
+
+    "weeksmeal": {
+        "week-5": {
+            "1": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "crema-di-piselli-con-riso",
+                    "mozzarella-stracchino",
+                    "carote-all-olio"
+                ],
+                "snack": ["frutta-fresca"],
+                "later-snack": ["frutta-fresca"]
+            },
+            "2": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "pasta-al-tonno",
+                    "tortino-di-patate",
+                    "fagiolini-all-olio"
+                ],
+                "snack": ["pane-e-cioccolato-fondente"],
+                "later-snack": ["barretta-di-cioccolato-fondente"]
+            },
+            "3": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "vellutata-di-patate-con-crostini",
+                    "pollo-al-limone",
+                    "carotine-e-piselli"
+                ],
+                "snack": ["frutta-fresca"],
+                "later-snack": ["frutta-fresca"]
+            },
+            "4": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "cous-cous-alle-verdure",
+                    "svizzera-di-bovino-al-forno-o-alla-pizzaiola",
+                    "verdura-fresca"
+                ],
+                "snack": ["yogurt-alla-frutta"],
+                "later-snack": ["budino-uht"]
+            },
+            "5": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "pasta-al-pomodoro",
+                    "polpette-di-pesce-al-forno",
+                    "insalata-verde"
+                ],
+                "snack": ["focaccia-al-forno"],
+                "later-snack": ["cracker"]
+            }
+        },
+        "week-1": {
+            "1": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "pasta-al-pomodoro-rustico",
+                    "formaggio",
+                    "fagiolini-profumati"
+                ],
+                "snack": ["frutta-fresca"],
+                "later-snack": ["frutta-fresca"]
+            },
+            "2": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "passato-di-verdure-alla-ligure-con-riso",
+                    "pepite-di-verdura-dorate",
+                    "carote-a-filo"
+                ],
+                "snack": ["bruschetta-/-pizza-al-pomodoro"],
+                "later-snack": ["cracker"]
+            },
+            "3": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "risotto-alla-parmigiana",
+                    "pesce-gratinato-al-forno",
+                    "patate-lessate"
+                ],
+                "snack": ["crostata"],
+                "later-snack": ["crostatina-all-albicocca"]
+            },
+            "4": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "crema-di-ceci-e-verdure-con-pastina",
+                    "straccetti-di-pollo-al-limone",
+                    "carote-prezzemolate"
+                ],
+                "snack": ["yogurt-alla-frutta-bio"],
+                "later-snack": ["budino-uht"]
+            },
+            "5": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "pasta-pasticciata-al-forno",
+                    "verdura-fresca",
+                    "torta-di-complemese"
+                ],
+                "snack": ["frutta-fresca"],
+                "later-snack": ["mousse-di-frutta"]
+            }
+        },
+        "week-2": {
+            "1": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "passato-di-verdure-alla-ligure-con-riso",
+                    "pesce-dorato",
+                    "patate-lessate"
+                ],
+                "snack": ["bruschetta-al-pomodoro/pizza-al-pomodoro"],
+                "later-snack": ["streghette-bio-all’olio-d’oliva"]
+            },
+            "2": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "crema-di-legumi-con-pastina",
+                    "medaglione-di-tacchino-al-forno",
+                    "verdura-fresca-mista"
+                ],
+                "snack": ["latte-e-biscotti"],
+                "later-snack": ["biscotti"]
+            },
+            "3": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "pasta-olio-e-parmigiano",
+                    "polpettine-di-ricotta-e-spinaci",
+                    "carote-a-filo"
+                ],
+                "snack": ["frutta-fresca"],
+                "later-snack": ["frutta-fresca"]
+            },
+            "4": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "pasta-alla-crema-di-broccoli",
+                    "pollo-al-forno",
+                    "bietole-olio-e-parmigiano"
+                ],
+                "snack": ["pane-e-cioccolato-fondente"],
+                "later-snack": ["barretta-di-cioccolato-fondente"]
+            },
+            "5": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "pasta-al-ragù-di-mare",
+                    "tortino-di-semolino-e-patate",
+                    "carote-all-olio"
+                ],
+                "snack": ["frutta-fresca"],
+                "later-snack": ["frutta-fresca"]
+            }
+        },
+        "week-3": {
+            "1": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "passato-di-verdure-con-pasta",
+                    "pizza",
+                    "verdura-fresca"
+                ],
+                "snack": ["ciambella-casalinga"],
+                "later-snack": ["plum-cake-allo-yogurt"]
+            },
+            "2": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "risotto-verde",
+                    "pesce-gratinato-al-forno",
+                    "purè-di-patate"
+                ],
+                "snack": ["frutta-fresca"],
+                "later-snack": ["frutta-fresca"]
+            },
+            "3": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "crema-di-legumi-con-orzo",
+                    "bocconcini-di-tacchino-dorati-al-forno",
+                    "carote-a-filo"
+                ],
+                "snack": ["latte-e-cereali"],
+                "later-snack": ["budino-uht"]
+            },
+            "4": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "pasta-olio-e-parmigiano",
+                    "svizzera-di-bovino",
+                    "fagiolini-all-olio"
+                ],
+                "snack": ["frutta-fresca"],
+                "later-snack": ["frutta-fresca"]
+            },
+            "5": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "pasta-al-ragù-di-carne-bianca",
+                    "polpettine-di-ricotta-al-forno",
+                    "insalata-verde"
+                ],
+                "snack": ["focaccia-al-forno"],
+                "later-snack": ["cracker"]
+            }
+        },
+        "week-4": {
+            "1": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "pasta-al-pomodoro",
+                    "pesce-gratinato-al-forno",
+                    "patate-arrosto"
+                ],
+                "snack": ["latte-e-biscotti"],
+                "later-snack": ["biscotti"]
+            },
+            "2": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "pastina-in-brodo-vegetale",
+                    "tortino-di-patate",
+                    "verdura-cotta"
+                ],
+                "snack": ["pane-e-marmellata"],
+                "later-snack": ["cracker"]
+            },
+            "3": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": ["lasagne-al-forno-(bovino)", "verdura-fresca-mista"],
+                "snack": ["frutta-fresca"],
+                "later-snack": ["frutta-fresca"]
+            },
+            "4": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "vellutata-di-zucca-con-riso",
+                    "lombino-di-maiale-al-forno",
+                    "broccoli-e-cavolfiore-all’olio"
+                ],
+                "snack": ["pizza"],
+                "later-snack": ["streghette-bio-all’olio-d’oliva"]
+            },
+            "5": {
+                "breakfast": ["frutta-fresca"],
+                "lunch": [
+                    "pasta-al-pomodoro",
+                    "polpette-di-pesce-al-forno",
+                    "insalata-verde"
+                ],
+                "snack": ["focaccia-al-forno"],
+                "later-snack": ["cracker"]
+            }
+        }
+    }
+}

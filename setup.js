@@ -51,7 +51,7 @@ async function getMenuByCity(_ref) {
     //     }
     // });
 
-    return menus[0];
+    return menus;
 }
 
 async function getCities() {
@@ -64,19 +64,43 @@ async function getCities() {
 
 async function createMenus() {
     const cities = await getCities();
-
-    cities.map(city => {
-        createMenu(city._id, city.name);
-    });
-}
-
-async function createMenu(_ref, name) {
     const meals = await getMeals();
-    const menu = await getMenuByCity(_ref);
-    console.log(menu);
+
+    const citiesWithMenus = await Promise.all(
+        cities.map(async city => {
+            const menus = await getMenuByCity(city._id);
+
+            await Promise.all(
+                menus.map(async menu => {
+                    return await createMenu(city._id, city.name, menu, meals);
+                })
+            );
+
+            return {
+                _id: city._id,
+                name: city.name,
+                menus: menus.map(({ _id, title }) => ({
+                    _id,
+                    title
+                }))
+            };
+        })
+    );
 
     await fs.outputJSON(
-        path.join(__dirname, "src", "_data", `${_ref}.json`),
+        path.join(__dirname, "src", "_data", `index.json`),
+        {
+            cities: citiesWithMenus
+        },
+        {
+            spaces: 2
+        }
+    );
+}
+
+async function createMenu(_ref, name, menu, meals) {
+    await fs.outputJSON(
+        path.join(__dirname, "src", "_data", `${menu._id}.json`),
         {
             name,
             meals,

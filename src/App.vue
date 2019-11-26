@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <DayNavigator/>
+    <Cities />
   </div>
 </template>
 
 <script>
-import DayNavigator from "./components/DayNavigator.vue";
+import Cities from "./components/Cities.vue";
 
 export default {
   name: "app",
   components: {
-    DayNavigator
+    Cities
   }
 };
 </script>

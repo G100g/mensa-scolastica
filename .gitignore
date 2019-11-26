@@ -11,7 +11,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-src/_data
+public/data
 
 # Editor directories and files
 .idea

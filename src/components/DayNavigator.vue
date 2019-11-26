@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <Meal v-bind:date="selectedDate"/>
+    <Meal v-bind:date="selectedDate" :calendar="menu" />
     <!-- <WeekCalculator/> -->
-    <DateSelector v-on:select="updateDate" v-bind:init-date="selectedDate"/>
+    <DateSelector v-on:select="updateDate" v-bind:init-date="selectedDate" />
   </div>
 </template>
 
@@ -15,6 +15,7 @@ import DateSelector from "./DateSelector.vue";
 
 export default {
   name: "DayNavigator",
+  props: ["menu"],
   data: () => ({
     selectedDate: new Date()
   }),

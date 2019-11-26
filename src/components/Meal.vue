@@ -14,13 +14,13 @@
 
 <script>
 import get from "lodash/get";
-import calendar from "../data/calendar.json";
+// import calendar from "../data/calendar.json";
 
 import { getWeekNumber } from "../helpers/date";
 
 export default {
   name: "Meal",
-  props: ["date"],
+  props: ["date", "calendar"],
   data: () => ({
     currentDate: new Date()
     // meal: {
@@ -48,7 +48,7 @@ export default {
         "later-snack": "Merenda P.Time"
       };
 
-      return get(calendar, `meals.${key}`, key);
+      return get(this.calendar, `meals.${key}`, key);
     }
   },
 
@@ -60,11 +60,15 @@ export default {
 
       const weekDay = d.getDay();
 
-      const weekmeal = get(calendar, `weeks.${weekNumber}`, null);
+      const weekmeal = get(this.calendar, `weeks.${weekNumber}`, null);
 
       // Get meal
-      // console.log(calendar);
-      const meals = get(calendar, `weeksmeal.${weekmeal}.${weekDay}`, null);
+      // console.log(this.calendar);
+      const meals = get(
+        this.calendar,
+        `weeksmeal.${weekmeal}.${weekDay}`,
+        null
+      );
 
       console.log(
         weekNumber,

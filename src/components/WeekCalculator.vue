@@ -1,7 +1,7 @@
 <template>
   <div>
-    <input type="text" v-model="weekdate">
-    {{ weekNumber }}
+    <!-- <input type="text" v-model="weekdate" /> -->
+    {{ weekCurrentNumber}}
   </div>
 </template>
 
@@ -11,10 +11,16 @@ import { getWeekNumber } from "../helpers/date";
 
 export default {
   name: "WeekCalculator",
+  props: ["selectedDate"],
   data: () => ({
     weekNumber: "",
     weekdate: ""
   }),
+  computed: {
+    weekCurrentNumber() {
+      return getWeekNumber(this.selectedDate).toString();
+    }
+  },
   watch: {
     weekdate: function() {
       console.log(this.weekdate);

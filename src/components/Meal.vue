@@ -1,12 +1,10 @@
 <template>
   <div class="container">
     <div v-if="meals">
-      <div class="meal" :class="[key]" v-for="(value, key) in meals" :key="key">
-        <h3>{{ getMealTitle(key) }}</h3>
-        <ul>
-          <li v-for="(meal, key) in value" :key="key">{{ getMealName(meal) }}</li>
-        </ul>
-      </div>
+      <MealDetails :meals="meals.breakfast" type="breakfast" />
+      <MealDetails :meals="meals.lunch" type="lunch" />
+      <MealDetails :meals="meals.snack" type="snack" />
+      <MealDetails :meals="meals.latersnack" type="latersnack" />
     </div>
     <div v-else>Nessun pasto trovato</div>
   </div>
@@ -18,8 +16,21 @@ import get from "lodash/get";
 
 import { getWeekNumber } from "../helpers/date";
 
+import MealDetails from "./MealDetails.vue";
+
+const weekDayLabel = {
+  1: "monday",
+  2: "tuesday",
+  3: "wednesday",
+  4: "thursday",
+  5: "friday"
+};
+
 export default {
   name: "Meal",
+  components: {
+    MealDetails
+  },
   props: ["date", "calendar"],
   data: () => ({
     currentDate: new Date()
@@ -27,40 +38,27 @@ export default {
     //   ciao: "pippo"
     // }
   }),
-
   methods: {
-    getMealTitle: function(key) {
-      const mealNames = {
-        lunch: "Pranzo",
-        breakfast: "Colazione",
-        snack: "Merenda",
-        "later-snack": "Merenda P.Time"
-      };
-
-      return mealNames[key] || key;
-    },
-
     getMealName: function(key) {
-      const mealNames = {
-        lunch: "Pranzo",
-        breakfast: "Colazione",
-        snack: "Merenda",
-        "later-snack": "Merenda P.Time"
-      };
-
       return get(this.calendar, `meals.${key}`, key);
     }
   },
 
   computed: {
     meals: function() {
-      console.log(this.date);
+      // console.log(this.date);
       const d = this.date;
       const [weekYear, weekNumber] = getWeekNumber(d);
 
-      const weekDay = d.getDay();
+      const weekDay = weekDayLabel[d.getDay()];
 
-      const weekmeal = get(this.calendar, `weeks.${weekNumber}`, null);
+      const weekmeal = get(
+        this.calendar,
+        `weeks.${weekYear}.${weekNumber}`,
+        null
+      );
+      // console.log(this.calendar);
+      // console.log(`weeks.${weekYear}.${weekNumber}`, weekmeal);
 
       // Get meal
       // console.log(this.calendar);
@@ -70,13 +68,26 @@ export default {
         null
       );
 
-      console.log(
-        weekNumber,
-        weekDay,
-        weekmeal,
-        `weeksmeal.${weekmeal}.${weekDay}`
-      );
-      console.log(meals);
+      // console.log(
+      //   weekNumber,
+      //   weekDay,
+      //   weekmeal,
+      //   `weeksmeal.${weekmeal}.${weekDay}`
+      // );
+      // console.log(meals);
+
+      if (meals) {
+        console.log(meals);
+        return Object.keys(meals)
+          .filter(key => key !== "_type")
+          .reduce((newmeals, mealKey) => {
+            newmeals[mealKey] = meals[mealKey].map(m =>
+              this.getMealName(m._ref)
+            );
+            console.log(newmeals);
+            return newmeals;
+          }, {});
+      }
 
       return meals;
     }

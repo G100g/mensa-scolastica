@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <Meal v-bind:date="selectedDate" :calendar="menu" />
-    <!-- <WeekCalculator/> -->
+    <WeekCalculator :selected-date="selectedDate" />
+    <Meal v-bind:date="selectedDate" :calendar="calendar" />
     <DateSelector v-on:select="updateDate" v-bind:init-date="selectedDate" />
   </div>
 </template>
@@ -17,11 +17,29 @@ export default {
   name: "DayNavigator",
   props: ["menu"],
   data: () => ({
-    selectedDate: new Date()
+    selectedDate: new Date(),
+    calendar: null
   }),
   methods: {
     updateDate: function(selectedDate) {
       this.selectedDate = selectedDate;
+    },
+    getCalendar: async function(menuId) {
+      try {
+        const result = await fetch(`/data/${menuId}.json`)
+          .then(res => res.json())
+          .then(data => data);
+        console.log(result);
+        this.calendar = result;
+      } catch (e) {
+        return null;
+      }
+    }
+  },
+  watch: {
+    menu: function(newValue) {
+      console.log(newValue);
+      this.getCalendar(newValue);
     }
   },
   computed: {
@@ -33,6 +51,9 @@ export default {
     WeekCalculator,
     Meal,
     DateSelector
+  },
+  mounted() {
+    this.getCalendar(this.menu);
   }
 };
 </script>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="!!currentMenu">
+    <div v-if="currentMenu === null">
       <h1>Scegli il menù della tua città</h1>
       <div v-for="(city, index) in cities" :key="index">
         <div v-if="city.menus.length > 0">
@@ -32,15 +32,21 @@ export default {
   },
   methods: {
     selectMenu(menu) {
-      this.currentMenu = menu;
+      this.currentMenu = menu._id;
+      localStorage.setItem("lastVisistedMenu", this.currentMenu);
     }
   },
   mounted: async function() {
     const result = await fetch("/data/index.json")
       .then(res => res.json())
       .then(data => data);
-    console.log(result);
+
     this.cities = result.cities;
+
+    const lastVisistedMenu = localStorage.getItem("lastVisistedMenu");
+    if (lastVisistedMenu) {
+      this.currentMenu = lastVisistedMenu;
+    }
   }
 };
 </script>

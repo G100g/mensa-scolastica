@@ -1,0 +1,19 @@
+{
+  "cities": [
+    {
+      "_id": "19eaf1a4-747f-45f6-877c-58880b653735",
+      "name": "Scandiano",
+      "menus": []
+    },
+    {
+      "_id": "eebd5808-e6e9-4e21-988c-e3e6e4014391",
+      "name": "Castelfranco Emilia",
+      "menus": [
+        {
+          "_id": "51a73ba3-38aa-454a-944b-ead3e824a487",
+          "title": "Menù invernale - Scuola dell'infanzia"
+        }
+      ]
+    }
+  ]
+}

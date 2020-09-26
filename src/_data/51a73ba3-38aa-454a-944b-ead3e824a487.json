@@ -1,0 +1,500 @@
+{
+  "name": "Castelfranco Emilia",
+  "meals": {
+    "09ade296-ed7d-43da-b05f-6c2bdf338063": "Pane e cioccolato fondente",
+    "0dc54824-91cc-41e4-8737-a0040e84b6d7": "Lasagne al forno (ragù di bovino)",
+    "0e99f6c3-cde4-40d0-8d04-5809baa53911": "Patate lessate",
+    "1230db57-3898-44aa-8b1f-b4b52313558b": "Piatto tipico regionale/dal mondo",
+    "1d113920-38c6-4bfa-8c6b-b3f691be9d76": "Yogurt alla frutta",
+    "22b2be1d-fc69-4476-8c4c-998b849ec9d9": "Polpettine di ricotta e spinaci",
+    "259ac939-6de7-4a69-a81c-7a1cca17f6bf": "Bocconcini di tacchino dorati al forno",
+    "27504391-eece-43f3-b911-4e852ee90402": "Verdura fresca mista",
+    "277c9e44-5c81-4065-abd6-a3707a62f9a3": "Pasta pasticciata al forno (ragù di bovino)",
+    "27c89269-7a7a-45a4-b4b1-c811a411c378": "Crema di piselli con riso",
+    "28583f8e-42d6-4fb3-bc86-d3d08ac32464": "Pane e marmellata",
+    "2a9e41b0-b770-4dd8-a63f-c04e6cf97cf8": "Crackers",
+    "30b6eec8-9bf5-4054-9f2f-8bb97b26c263": "Cous cous polpettine di carne e sugo di piselli",
+    "37c048a9-08d9-44d2-ae77-6ae1431c1b92": "Carote prezzemolate",
+    "37d899b4-d013-450a-b508-a87b3fefd1d0": "Crostata",
+    "3e0f8296-cd93-4b5d-ac96-26745f79a506": "Formaggio (cac/stracch/mozz)",
+    "40c4653b-e56e-4ac9-8f1b-0092af094d5f": "Patate arrosto",
+    "415799e3-2f07-4b33-b405-b80fbccb16d6": "Purè di patate",
+    "45142aee-a3c3-4351-85bb-15876bb94ee6": "Fagiolini all'olio",
+    "486c8032-135e-4caf-aa49-3562d383bac2": "Pasta al ragù di mare",
+    "4920798e-33ba-4fd7-8feb-60fcf565cef9": "Tortino di semolino e patate",
+    "4db1b4f1-f137-4296-9cbf-9f0b0cd77b2c": "Verdura cotta",
+    "4de40724-55f6-4c04-9049-89bae7c070fd": "Sformato di patate",
+    "526bc4fe-d5f6-480b-9965-ce87d88be35a": "Broccoli e cavolfiore all'olio",
+    "52dedf1f-85bd-42e1-8ea0-00fbdc0932bf": "Tortino di verdure e legumi",
+    "542ce3c6-ce02-4e0b-9b10-8941c022656d": "Straccetti di pollo al limone",
+    "5c2bd1ca-f2b4-4957-a9f9-2f62fe8bcd0e": "Svizzera di bovino",
+    "5cabfd3b-5f62-4c76-8f35-aa0ba80cd2a5": "Crema di legumi con pastina",
+    "664e5aa6-2c4f-4062-a8ce-368c468f2d7b": "Lombino di maiale al forno",
+    "6650ec0f-6b84-4647-bb46-c316b9f6e263": "Pasta al pesto delicato",
+    "6e6069c5-de7f-4af1-8453-ec7a524c39dd": "Pesce gratinato al forno",
+    "708481d2-dd34-414b-96e0-3582a1b2c38b": "Insalata verde",
+    "7119e858-170f-4224-9ca7-d6c99e61f68c": "Latte e biscotti",
+    "73084fe4-27fd-4b05-9c49-b632afd8eb2e": "Pasta al pomodoro rustico",
+    "7b506cff-f69a-4589-9732-7a562bfcab9f": "Budino UHT",
+    "7e27d359-f69e-44ec-846a-428525a25ccc": "Crema di legumi con orzo",
+    "8131c411-328a-46c7-af3f-49d7e6c3c691": "Pasta alla crema di broccoli e besciamella",
+    "8447675e-be0a-4a43-b378-9b44c6c68de5": "Vellutata di zucca con riso",
+    "85ff4209-f762-433b-8bca-2e24dc250934": "Pepite di verdura dorate",
+    "87d7f2e7-f599-4eea-a0d7-65449c49c821": "Pesce dorato al forno",
+    "8b58e4bc-8384-44d7-a529-ef68f3ef2d16": "Risotto verde",
+    "927be8e6-a4ec-4d41-bf78-eb63f1a90051": "Mousse di frutta",
+    "93bf04e2-675d-4dff-814e-3a2e9a180c8a": "Pollo al forno",
+    "971d3374-eab8-4867-a623-baaea42996f4": "Pasta al tonno",
+    "a4be95b6-4e12-448c-abb1-fe95c216e16b": "Passato di verdura con pasta",
+    "a5014baa-e9ae-46b8-9baa-871c4fec57f0": "Carote all'olio",
+    "aa6ff156-18df-41bd-a9f6-f8cf3326eee1": "Streghette bio",
+    "af41c42c-626b-4376-af4d-5e5bee2f2489": "Frutta fresca",
+    "b39c3f3e-25af-4789-abf8-549f541857ed": "Mozzarella/stracchino",
+    "b5bc9340-d212-4e66-bb74-6681d82e2065": "Pizza al pomodoro",
+    "ba1cef05-b5b1-4011-8cf5-56cfcf4b4abc": "Focaccia al forno",
+    "be690149-af92-414d-af6f-62627539614c": "Pasta al ragù di carne bianca",
+    "c118ba0d-b56b-4c5e-a89b-38d85f817d2f": "Bietola olio e parmigiano",
+    "c1203d76-b324-4d5c-9700-20afef15745e": "Barretta di cioccolato fondente",
+    "c7f29f06-ad4a-4f83-82c7-622bd9901db4": "Medaglione di tacchino al forno",
+    "c7fea7d9-92b0-4c55-9e06-3e89518bd32a": "Pasta al pomodoro",
+    "cb02aede-b6fe-4ff8-8c48-ca1529a6e183": "Pizza margherita",
+    "cdf5aed1-a8b7-47f8-84b2-7eddd899b611": "Polpette di pesce al forno",
+    "d08d4834-669f-4a87-a227-6bf7ddf462b2": "Medaglione / polpettine di verdura",
+    "d2d57d66-45a5-4f31-b249-66bcff6e53b3": "Budino",
+    "d3c74ff5-6aca-4b55-8152-e498d47620cf": "Latte e cereali",
+    "d42025a4-1e2e-4f15-baae-7a4d76be7db5": "Pollo al limone",
+    "d63ead9e-5917-491d-8488-b790470ad13b": "Ciambella casalinga",
+    "de2f7f70-1a5a-4f40-9a80-bef013705805": "Carote a filetti",
+    "drafts.8131c411-328a-46c7-af3f-49d7e6c3c691": "Pasta alla crema di broccoli e besciamella",
+    "e129d0ba-94cc-490e-a442-1998c8423f14": "Plumcake allo yogurt",
+    "e3b191d3-3858-43d5-9461-213d6ee12872": "Pasta olio e parmigiano",
+    "e3f8b545-b029-41e2-9ee0-383aec5a3a36": "Biscotti",
+    "e97fda92-1ed0-4834-a5a3-2cc2ebe6ccd0": "Crema di ceci e verdure con pastina",
+    "e980b258-f3e8-408b-95e6-e92bcaed8990": "Risotto alla parmigiana",
+    "f4a23a41-0eca-4d03-bb02-1370f97d5c38": "Crostatina all'albicocca",
+    "f9f6ab4f-8d9c-4e6f-81d5-302536ff6744": "Pesce gratinato al forno"
+  },
+  "weeksmeal": {
+    "_createdAt": "2019-10-31T08:23:40Z",
+    "_id": "51a73ba3-38aa-454a-944b-ead3e824a487",
+    "_rev": "j3S7uWudAzOcEqdVwUMddi",
+    "_type": "menu",
+    "_updatedAt": "2019-11-25T21:23:30Z",
+    "city": {
+      "_ref": "eebd5808-e6e9-4e21-988c-e3e6e4014391",
+      "_type": "reference"
+    },
+    "title": "Menù invernale - Scuola dell'infanzia",
+    "week1": {
+      "_type": "week",
+      "friday": {
+        "_type": "day",
+        "latersnack": [
+          {
+            "_key": "90d13ea76373",
+            "_ref": "927be8e6-a4ec-4d41-bf78-eb63f1a90051",
+            "_type": "reference"
+          }
+        ],
+        "lunch": [
+          {
+            "_key": "76e6e5f82769",
+            "_ref": "277c9e44-5c81-4065-abd6-a3707a62f9a3",
+            "_type": "reference"
+          },
+          {
+            "_key": "c2869d950836",
+            "_ref": "27504391-eece-43f3-b911-4e852ee90402",
+            "_type": "reference"
+          }
+        ],
+        "snack": [
+          {
+            "_key": "257a46409564",
+            "_ref": "af41c42c-626b-4376-af4d-5e5bee2f2489",
+            "_type": "reference"
+          }
+        ]
+      },
+      "monday": {
+        "_type": "day",
+        "latersnack": [
+          {
+            "_key": "2188e88f2455",
+            "_ref": "af41c42c-626b-4376-af4d-5e5bee2f2489",
+            "_type": "reference"
+          }
+        ],
+        "lunch": [
+          {
+            "_key": "929cd0d9509f",
+            "_ref": "73084fe4-27fd-4b05-9c49-b632afd8eb2e",
+            "_type": "reference"
+          },
+          {
+            "_key": "b0bcdf5d3175",
+            "_ref": "3e0f8296-cd93-4b5d-ac96-26745f79a506",
+            "_type": "reference"
+          },
+          {
+            "_key": "292d21fa6a25",
+            "_ref": "45142aee-a3c3-4351-85bb-15876bb94ee6",
+            "_type": "reference"
+          }
+        ],
+        "snack": [
+          {
+            "_key": "a22aabeed35b",
+            "_ref": "af41c42c-626b-4376-af4d-5e5bee2f2489",
+            "_type": "reference"
+          }
+        ]
+      },
+      "thursday": {
+        "_type": "day",
+        "latersnack": [
+          {
+            "_key": "a9e207180d99",
+            "_ref": "d2d57d66-45a5-4f31-b249-66bcff6e53b3",
+            "_type": "reference"
+          }
+        ],
+        "lunch": [
+          {
+            "_key": "235a90c01a80",
+            "_ref": "e97fda92-1ed0-4834-a5a3-2cc2ebe6ccd0",
+            "_type": "reference"
+          },
+          {
+            "_key": "ce21e49edf81",
+            "_ref": "542ce3c6-ce02-4e0b-9b10-8941c022656d",
+            "_type": "reference"
+          },
+          {
+            "_key": "9d418daa6f44",
+            "_ref": "37c048a9-08d9-44d2-ae77-6ae1431c1b92",
+            "_type": "reference"
+          }
+        ],
+        "snack": [
+          {
+            "_key": "9d4fd0ba3538",
+            "_ref": "d2d57d66-45a5-4f31-b249-66bcff6e53b3",
+            "_type": "reference"
+          }
+        ]
+      },
+      "tuesday": {
+        "_type": "day",
+        "latersnack": [
+          {
+            "_key": "9eec657bfef3",
+            "_ref": "af41c42c-626b-4376-af4d-5e5bee2f2489",
+            "_type": "reference"
+          }
+        ],
+        "lunch": [
+          {
+            "_key": "10c20483255f",
+            "_ref": "e3b191d3-3858-43d5-9461-213d6ee12872",
+            "_type": "reference"
+          },
+          {
+            "_key": "29f00d4e9afa",
+            "_ref": "85ff4209-f762-433b-8bca-2e24dc250934",
+            "_type": "reference"
+          },
+          {
+            "_key": "cd5562d2313e",
+            "_ref": "de2f7f70-1a5a-4f40-9a80-bef013705805",
+            "_type": "reference"
+          }
+        ],
+        "snack": [
+          {
+            "_key": "919e6433d87c",
+            "_ref": "b5bc9340-d212-4e66-bb74-6681d82e2065",
+            "_type": "reference"
+          }
+        ]
+      },
+      "wednesday": {
+        "_type": "day",
+        "latersnack": [
+          {
+            "_key": "9ccddac9190a",
+            "_ref": "f4a23a41-0eca-4d03-bb02-1370f97d5c38",
+            "_type": "reference"
+          }
+        ],
+        "lunch": [
+          {
+            "_key": "ee9228e3ac17",
+            "_ref": "e980b258-f3e8-408b-95e6-e92bcaed8990",
+            "_type": "reference"
+          },
+          {
+            "_key": "8da44e75a26d",
+            "_ref": "6e6069c5-de7f-4af1-8453-ec7a524c39dd",
+            "_type": "reference"
+          },
+          {
+            "_key": "a4a5941ddda3",
+            "_ref": "0e99f6c3-cde4-40d0-8d04-5809baa53911",
+            "_type": "reference"
+          }
+        ],
+        "snack": [
+          {
+            "_key": "742af783109b",
+            "_ref": "37d899b4-d013-450a-b508-a87b3fefd1d0",
+            "_type": "reference"
+          }
+        ]
+      },
+      "weeksrange": [
+        {
+          "_key": "c1a8b6d903e7",
+          "_type": "dateinterval",
+          "from": "2019-11-11",
+          "to": "2019-11-17"
+        },
+        {
+          "_key": "209149591eca",
+          "_type": "dateinterval",
+          "from": "2019-12-16",
+          "to": "2019-12-22"
+        },
+        {
+          "_key": "18003c80e613",
+          "_type": "dateinterval",
+          "from": "2020-01-20",
+          "to": "2020-01-26"
+        },
+        {
+          "_key": "63dfaf870539",
+          "_type": "dateinterval",
+          "from": "2020-02-24",
+          "to": "2020-03-01"
+        },
+        {
+          "_key": "28244430c157",
+          "_type": "dateinterval",
+          "from": "2020-03-30",
+          "to": "2020-04-05"
+        }
+      ]
+    },
+    "week2": {
+      "_type": "week",
+      "friday": {
+        "_type": "day",
+        "latersnack": [
+          {
+            "_key": "27c84dfdeca3",
+            "_ref": "af41c42c-626b-4376-af4d-5e5bee2f2489",
+            "_type": "reference"
+          }
+        ],
+        "lunch": [
+          {
+            "_key": "11de2fe73067",
+            "_ref": "486c8032-135e-4caf-aa49-3562d383bac2",
+            "_type": "reference"
+          },
+          {
+            "_key": "b97dcd5ac53b",
+            "_ref": "4920798e-33ba-4fd7-8feb-60fcf565cef9",
+            "_type": "reference"
+          },
+          {
+            "_key": "8af93384917f",
+            "_ref": "a5014baa-e9ae-46b8-9baa-871c4fec57f0",
+            "_type": "reference"
+          }
+        ],
+        "snack": [
+          {
+            "_key": "db2ee812d093",
+            "_ref": "af41c42c-626b-4376-af4d-5e5bee2f2489",
+            "_type": "reference"
+          }
+        ]
+      },
+      "monday": {
+        "_type": "day",
+        "latersnack": [
+          {
+            "_key": "d078020a9d5d",
+            "_ref": "aa6ff156-18df-41bd-a9f6-f8cf3326eee1",
+            "_type": "reference"
+          }
+        ],
+        "lunch": [
+          {
+            "_key": "853f11a02f25",
+            "_ref": "6650ec0f-6b84-4647-bb46-c316b9f6e263",
+            "_type": "reference"
+          },
+          {
+            "_key": "db0315fa5cc4",
+            "_ref": "87d7f2e7-f599-4eea-a0d7-65449c49c821",
+            "_type": "reference"
+          },
+          {
+            "_key": "59c28eb400cd",
+            "_ref": "0e99f6c3-cde4-40d0-8d04-5809baa53911",
+            "_type": "reference"
+          }
+        ],
+        "snack": [
+          {
+            "_key": "4c4b0fd8d47e",
+            "_ref": "b5bc9340-d212-4e66-bb74-6681d82e2065",
+            "_type": "reference"
+          }
+        ]
+      },
+      "thursday": {
+        "_type": "day",
+        "latersnack": [
+          {
+            "_key": "66ff40b1d023",
+            "_ref": "c1203d76-b324-4d5c-9700-20afef15745e",
+            "_type": "reference"
+          }
+        ],
+        "lunch": [
+          {
+            "_key": "20a8f1b08fad",
+            "_ref": "8131c411-328a-46c7-af3f-49d7e6c3c691",
+            "_type": "reference"
+          },
+          {
+            "_key": "d784e29f4402",
+            "_ref": "93bf04e2-675d-4dff-814e-3a2e9a180c8a",
+            "_type": "reference"
+          },
+          {
+            "_key": "1c9bc8619f98",
+            "_ref": "c118ba0d-b56b-4c5e-a89b-38d85f817d2f",
+            "_type": "reference"
+          }
+        ],
+        "snack": [
+          {
+            "_key": "9b5170b91234",
+            "_ref": "09ade296-ed7d-43da-b05f-6c2bdf338063",
+            "_type": "reference"
+          }
+        ]
+      },
+      "tuesday": {
+        "_type": "day",
+        "latersnack": [
+          {
+            "_key": "e98663783004",
+            "_ref": "e3f8b545-b029-41e2-9ee0-383aec5a3a36",
+            "_type": "reference"
+          }
+        ],
+        "lunch": [
+          {
+            "_key": "6636bb609cb7",
+            "_ref": "5cabfd3b-5f62-4c76-8f35-aa0ba80cd2a5",
+            "_type": "reference"
+          },
+          {
+            "_key": "43de74908e1e",
+            "_ref": "c7f29f06-ad4a-4f83-82c7-622bd9901db4",
+            "_type": "reference"
+          },
+          {
+            "_key": "26f3d37a3d2d",
+            "_ref": "27504391-eece-43f3-b911-4e852ee90402",
+            "_type": "reference"
+          }
+        ],
+        "snack": [
+          {
+            "_key": "d7e3ab2f012b",
+            "_ref": "7119e858-170f-4224-9ca7-d6c99e61f68c",
+            "_type": "reference"
+          }
+        ]
+      },
+      "wednesday": {
+        "_type": "day",
+        "latersnack": [
+          {
+            "_key": "a008e9a93521",
+            "_ref": "af41c42c-626b-4376-af4d-5e5bee2f2489",
+            "_type": "reference"
+          }
+        ],
+        "lunch": [
+          {
+            "_key": "43411f868f00",
+            "_ref": "e3b191d3-3858-43d5-9461-213d6ee12872",
+            "_type": "reference"
+          },
+          {
+            "_key": "0b00f98450fd",
+            "_ref": "22b2be1d-fc69-4476-8c4c-998b849ec9d9",
+            "_type": "reference"
+          },
+          {
+            "_key": "5633c79b94cd",
+            "_ref": "de2f7f70-1a5a-4f40-9a80-bef013705805",
+            "_type": "reference"
+          }
+        ],
+        "snack": [
+          {
+            "_key": "cccb73e31bd6",
+            "_ref": "af41c42c-626b-4376-af4d-5e5bee2f2489",
+            "_type": "reference"
+          }
+        ]
+      },
+      "weeksrange": [
+        {
+          "_key": "63f364390b2b",
+          "_type": "dateinterval",
+          "from": "2019-10-14",
+          "to": "2019-10-20"
+        },
+        {
+          "_key": "a5355b5bc919",
+          "_type": "dateinterval",
+          "from": "2019-11-18",
+          "to": "2019-11-24"
+        },
+        {
+          "_key": "be01a3cfdc2e",
+          "_type": "dateinterval",
+          "from": "2019-12-23",
+          "to": "2019-12-29"
+        },
+        {
+          "_key": "00e3bd7dbc56",
+          "_type": "dateinterval",
+          "from": "2020-01-27",
+          "to": "2020-02-02"
+        },
+        {
+          "_key": "28039fef5450",
+          "_type": "dateinterval",
+          "from": "2020-03-02",
+          "to": "2020-03-08"
+        },
+        {
+          "_key": "6b817955a86e",
+          "_type": "dateinterval",
+          "from": "2020-04-06",
+          "to": "2020-04-12"
+        }
+      ]
+    }
+  }
+}

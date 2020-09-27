@@ -1,9 +1,9 @@
 <template>
-    <div>
-        <h2>Scegli la città</h2>
+    <section class="section">
+        <h2 class="title">Scegli la città</h2>
         <div v-for="(city, index) in cities" :key="index">
             <div>
-                <router-link :to="`/city/${city._id}`">
+                <router-link :to="`/city/${city._id}`" class="is-size-4">
                     {{ city.name }}
                 </router-link>
                 <!-- <div
@@ -16,7 +16,7 @@
                     </div> -->
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>

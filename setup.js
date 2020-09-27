@@ -58,26 +58,26 @@ async function getMenus() {
     return await client.fetch(query);
 }
 
-async function getMenuBySchool(_ref) {
-    const query = /* groq */ `
-        *[_type == "menu" && city._ref == "${_ref}"] {
-            _id,
-            ...
-        }
-    `;
+// async function getMenuBySchool(_ref) {
+//     const query = /* groq */ `
+//         *[_type == "menu" && city._ref == "${_ref}"] {
+//             _id,
+//             ...
+//         }
+//     `;
 
-    const menus = await client.fetch(query);
-    // console.log(menus);
+//     const menus = await client.fetch(query);
+//     // console.log(menus);
 
-    // const parsedMenu = menus.map(menu => {
+//     // const parsedMenu = menus.map(menu => {
 
-    //     return {
-    //         menu
-    //     }
-    // });
+//     //     return {
+//     //         menu
+//     //     }
+//     // });
 
-    return menus;
-}
+//     return menus;
+// }
 
 async function getCities() {
     const query = /* groq */ `

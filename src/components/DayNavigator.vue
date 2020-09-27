@@ -89,7 +89,7 @@ export default {
     justify-content: center;
 }
 
-.dateNavigator {
+/* .dateNavigator {
     position: fixed;
     display: flex;
     justify-content: space-evenly;
@@ -99,11 +99,11 @@ export default {
     right: 0;
 
     padding: 2rem;
-}
+} */
 
-button {
+/* button {
     border: 1px solid #999;
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
-}
+} */
 </style>

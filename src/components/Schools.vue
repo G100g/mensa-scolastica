@@ -1,14 +1,14 @@
 <template>
-    <div>
-        <h1>Scegli la scuola</h1>
+    <section class="section">
+        <h2 class="title">Scegli la scuola</h2>
         <div v-for="(school, index) in schools" :key="index">
             <div>
-                <router-link :to="getSchoolLink(school._id)">
+                <router-link :to="getSchoolLink(school._id)" class="is-size-4">
                     {{ school.name }}
                 </router-link>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 
 <script>
